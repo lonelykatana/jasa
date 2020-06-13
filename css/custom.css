@@ -1,0 +1,9 @@
+.bg-success {
+    background-color: #1dbf73 !important;
+  }
+  
+  a.bg-success:hover, a.bg-success:focus,
+  button.bg-success:hover,
+  button.bg-success:focus {
+    background-color: #1e7e34 !important;
+  }

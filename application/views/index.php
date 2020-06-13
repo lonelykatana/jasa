@@ -12,7 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="<?php echo base_url();?>assets1/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
+  <link href="<?php echo base_url();?>assets1/vendor/bootstrap/css/custom.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="<?php echo base_url();?>assets1/css/modern-business.css" rel="stylesheet">
 
@@ -22,8 +22,15 @@
 
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+    
+      <a class="navbar-brand" href="index.html">
+      <img src="<?php echo base_url();?>assets1/vendor/logo2.svg" width="30" height="30" alt="Hired.">
+      Hired.
+      </a>
+      <span class="navbar-text mr-3" style="color:white;">
+      Find the perfect freelance services for your needs
+</span>
+
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,48 +40,15 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="services.html">Jasa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-            </div>
+            <a class="nav-link" href="contact.html">Sign In</a>
           </li>
         </ul>
+        <a href="#" class="btn btn-outline-success mr-3">Login</a> 
       </div>
-    </div>
+   
   </nav>
 
   <header>
@@ -86,24 +60,24 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item active" style="background-image: url('assets1/vendor/slide1.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
+            <h3>Need help?</h3>
+         
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('assets1/vendor/slide2.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+            <h3>Look no further</h3>
+            
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('assets1/vendor/slide4.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
+            <h3>You're here now</h3>
+           
           </div>
         </div>
       </div>
@@ -119,162 +93,136 @@
   </header>
 
   <!-- Page Content -->
-  <div class="container">
-
-    <h1 class="my-4">Welcome to Modern Business</h1>
-
-    <!-- Marketing Icons Section -->
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-
+  <div class="container" style="margin-top:80px;">
+    <h3 class="my-4">Popular professional services</h3>
     <!-- Portfolio Section -->
-    <h2>Portfolio Heading</h2>
-
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project One</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Two</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Three</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Four</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Five</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Six</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-          </div>
-        </div>
-      </div>
+    <div class="card-deck">
+    <div class="card">
+    <img class="card-img"   src="<?php echo base_url();?>assets1/vendor/wordpress2.jpg" width="229" height="300" alt="Card image">
+    <div class="card-img-overlay">
+    <p class="card-text" style="color:white;">Customize your website</p>
+    <h5 class="card-title" style="color:white;margin-top:-20px">WordPress</h5>
+  </div>
     </div>
+    <div class="card">
+    <img class="card-img" src="<?php echo base_url();?>assets1/vendor/logodesign.jpg" width="229" height="300" alt="Card image">
+    <div class="card-img-overlay">
+    <p class="card-text" style="color:white;">Build your brand</p>
+    <h5 class="card-title" style="color:white;margin-top:-20px">Logo Design</h5>
+  </div>
+   </div>
+   <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/game.jpg" width="229" height="300" alt="Card image">
+    <div class="card-img-overlay">
+    <p class="card-text" style="color:white;">Make your own game</p>
+    <h5 class="card-title" style="color:white;margin-top:-20px">Game Development</h5>
+  </div>
+    
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/web.jpg" width="229" height="300" alt="Card image">
+    <div class="card-img-overlay">
+    <p class="card-text" style="color:white;">Create your website</p>
+    <h5 class="card-title" style="color:white;margin-top:-20px">Web Programming</h5>
+  </div>
+  </div>
+</div>
+</div>
     <!-- /.row -->
 
     <!-- Features Section -->
-    <div class="row">
+    <div class="row" style="margin-top:80px;">
       <div class="col-lg-6">
-        <h2>Modern Business Features</h2>
-        <p>The Modern Business template by Start Bootstrap includes:</p>
+        <h2>Get work done faster, with confidence</h2>
         <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
-          <li>Unstyled page elements for easy customization</li>
+          <li><h6>Payment protection, guaranteed</h6>
+        <p>Payment is released to the freelancer once you’re pleased and approve the work you get.</p></li>
+        <li><h6>Know the price up front</h6>
+        <p>Find any service within minutes and know exactly what you’ll pay. No hourly rates, just a fixed price.</p></li>
+        <li><h6>We’re here for you 24/7</h6>
+        <p>Reach out to us at any time! We have your back, from answering your questions to resolving issues.</p></li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+        
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+        <img class="img-fluid rounded" src="<?php echo base_url();?>assets1/vendor/fitur1.jpg" alt="">
       </div>
     </div>
     <!-- /.row -->
+     <!-- project -->
+     <div class="container" style="margin-top:100px;">
+    <h3 class="my-4">Get inspired with projects made by our freelancers</h3>
+    <!-- Portfolio Section -->
+    <div class="card-deck">
+    <div class="card">
+    <img class="card-img-top"   src="<?php echo base_url();?>assets1/vendor/projectwordpress.png" width="229" height="300" alt="Card image">
+    <div class="card-body">
+    <h5 class="card-title">WordPress</h5>
+    <p class="card-text">by <i>Erick</i></p>
+  </div>
+    </div>
+    <div class="card">
+    <img class="card-img-top"   src="<?php echo base_url();?>assets1/vendor/projectdesktop.png" width="229" height="300" alt="Card image">
+    <div class="card-body">
+    <h5 class="card-title">Desktop App</h5>
+    <p class="card-text">by <i>Mutiha</i></p>
+  </div>
+   </div>
+   <div class="card">
+   <img class="card-img-top"   src="<?php echo base_url();?>assets1/vendor/projectmobilegame.png" width="229" height="300" alt="Card image">
+    <div class="card-body">
+    <h5 class="card-title">Mobile Apps</h5>
+    <p class="card-text">by <i>Nauli</i> </p>
+  </div> 
+  </div>
+  <div class="card">
+  <img class="card-img-top"   src="<?php echo base_url();?>assets1/vendor/projectlogo.jpg" width="229" height="300" alt="Card image">
+    <div class="card-body">
+    <h5 class="card-title">Logo Design</h5>
+    <p class="card-text">by <i>Gultom</i></p>
+  </div>
+  </div>
+</div>
+</div>
 
-    <hr>
+<!--fitur 2-->
+<div class="row" style="margin-top:100px;">
+<div class="col-lg-6">
+        <img class="img-fluid rounded" src="<?php echo base_url();?>assets1/vendor/fitur2.gif" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h2>Give your needs the right tools</h2>
+        <ul>
+          <li><h6>Full transparency</h6>
+        <p>A new shared dashboard allows you to track your team's activity, so that everyone is always in sync.</p></li>
+        <li><h6>VIP customer support</h6>
+        <p>Quick response time and upgraded support solutions will help you to get what you need, when you need it. </p></li>
+        <li><h6>Improved billing options</h6>
+        <p>One team - one payment method. You can now add a card on file that every team member can use.</p></li>
+        </ul>
+        
+      </div>
+      
+    </div>
+  
 
     <!-- Call to Action Section -->
-    <div class="row mb-4">
-      <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-      </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-      </div>
-    </div>
+      <div class="container" style=" text-align: center;margin-top:80px;margin-bottom:50px;">
+        <h5 style="align-text:middle;">Find freelance services for your business today</h5>
+        <p>We've got you covered for all your needs</p>
+       <a class="btn btn-lg btn-secondary" style="width:150px;text-align:center;" href="#">Try it now</a>
+       </div>
+    
 
   </div>
+  <hr>
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 bg-light">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <h5 class="m-0 text-center text-black">Erick Gultom</h5>
+      <p class="m-0 text-center text-black">Copyright &copy; Hired.</p>
     </div>
     <!-- /.container -->
   </footer>
