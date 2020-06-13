@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <?php $this->load->view("admin/_partials/head.php") ?>
+
+
     <body class="sb-nav-fixed">
     <?php $this->load->view("admin/_partials/navbar.php") ?>
         <div id="layoutSidenav">
