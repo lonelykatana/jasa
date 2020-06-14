@@ -1,2 +1,3 @@
-Input table "jasa" into phpmyadmindatabase
-open with "localhost/jasa"
+Input table "jasa" into phpmyadmindatabase 	
+
+Open with "localhost/jasa"
