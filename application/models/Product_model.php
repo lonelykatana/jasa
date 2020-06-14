@@ -97,7 +97,7 @@ class Product_model extends CI_Model
     }
 
     private function _deleteImage($id)
-    {
+    {   
         $product = $this->getById($id);
         if($product = $this->image != "default.jpg")
         {

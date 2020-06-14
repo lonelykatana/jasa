@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success fixed-top">
     
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="Landing_page">
       <img src="<?php echo base_url();?>assets1/vendor/logo2.svg" width="30" height="30" alt="Hired.">
       Hired.
       </a>
@@ -13,12 +13,16 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          
+        <li class="nav-item">
+        <a class="nav-link" style="margin-top:-8px;" href="<?php $pesanan = 'Daftar Pesanan : '.$this->cart->total_items(). 'items' ?>"></a>
+                    <?php $pesanan = 'Daftar Pesanan : '.$this->cart->total_items(). 'items' ?>
+                    <?php echo anchor('Landing_page/detail_pesanan',$pesanan) ?>
+                  </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('Hal_jasa') ?>">Jasa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url('registrasi/') ?>">Sign In</a>
+            <a class="nav-link" href="<?php echo base_url('registrasi') ?>">Sign In</a>
           </li>
         </ul>
         <?php if($this->session->userdata('username')) { ?>

@@ -25,7 +25,7 @@ class Landing_page extends CI_Controller
     }
     public function tambah_ke_pesanan($id)
   {
-    $wifi = $this->model_wifi->find($id);
+    $jasa = $this->model_jasa->find($id);
     $data = array(
         'id'      => $jasa->product_id,
         'qty'     => 1,

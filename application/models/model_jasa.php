@@ -14,4 +14,14 @@ class model_jasa extends CI_Model{
     return false;
   }
 }
+public function find($id){
+    $result = $this->db->where('product_id',$id)
+                      ->limit(1)
+                      ->get('products');
+    if($result->num_rows() > 0){
+      return $result->row();
+    }else{
+      return array();
+    }
+}
 }

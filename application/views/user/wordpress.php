@@ -14,6 +14,7 @@
   <h5 class="card-title mb-2"><?php echo $jasa->name ?></h5>
   <small><?php echo $jasa->description ?></small><br>
   <span class="badge badge-pill badge-info mb-3"><?php echo number_format($jasa->price, 0,',','.') ?></span><br>
+  <?php echo anchor('Landing_page/tambah_ke_pesanan/'.$jasa->product_id,'<div class="btn btn-sm btn-primary mt-1">Tambah Ke Pesanan</div>') ?>
   <?php echo anchor('Landing_page/detail/'.$jasa->product_id,'<div class="btn btn-sm btn-success mt-1">Detail</div>') ?>
 </div>
 </div>
