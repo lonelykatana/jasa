@@ -66,6 +66,14 @@
 									<?php echo form_error('description') ?>
 								</div>
 							</div>
+							<div class="form-group">
+								<label for="price">Kategori</label>
+								<input class="form-control <?php echo form_error('kategori') ? 'is-invalid':'' ?>"
+								 type="text" name="kategori" min="0" placeholder="Product category" value="<?php echo $product->kategori ?>" />
+								<div class="invalid-feedback">
+									<?php echo form_error('kategori') ?>
+								</div>
+							</div>
 
 							<input class="btn btn-success" type="submit" name="btn" value="Save" />
 						</form>

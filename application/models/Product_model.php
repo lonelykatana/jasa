@@ -9,6 +9,7 @@ class Product_model extends CI_Model
     public $price;
     public $image = "default.jpg";
     public $description;
+    public $kategori;
 
     public function rules()
     {
@@ -23,6 +24,10 @@ class Product_model extends CI_Model
             
             ['field' => 'description',
             'label' => 'Description',
+            'rules' => 'required'],
+            
+            ['field' => 'kategori',
+            'label' => 'Kategori',
             'rules' => 'required']
         ];
     }
@@ -45,6 +50,7 @@ class Product_model extends CI_Model
         $this->price = $post["price"];
         $this->image = $this->_uploadImage();
         $this->description = $post["description"];
+        $this->kategori = $post["kategori"];
         return $this->db->insert($this->_table, $this);
     }
 
@@ -61,6 +67,7 @@ class Product_model extends CI_Model
             $this->image = $post["old_image"];
         }
         $this->description = $post["description"];
+        $this->kategori = $post["kategori"];
         return $this->db->update($this->_table, $this, array('product_id' => $post['id']));
     }
 
