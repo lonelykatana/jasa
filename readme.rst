@@ -1,5 +1,5 @@
-Input table "jasa" into phpmyadmindatabase 	
+Input table "jasa" into phpmyadmin database 	
 
 Open with "localhost/jasa"
 
-Login do admin's dashboard by logging in with username "admin" pass"admin"
+Login to admin's dashboard by logging in with username "admin" pass "admin"
