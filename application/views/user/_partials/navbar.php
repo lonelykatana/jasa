@@ -13,17 +13,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('Hal_jasa') ?>">Jasa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Sign In</a>
+            <a class="nav-link" href="<?php echo base_url('registrasi/') ?>">Sign In</a>
           </li>
         </ul>
-        <a href="#" class="btn btn-outline-success mr-3">Login</a> 
+        <?php if($this->session->userdata('username')) { ?>
+    <li style="list-style-type:none;"><div style="color:white;">Selamat Datang <?php echo $this->session->userdata('username')?></div></li>
+    <li class="ml-4" style="list-style-type:none;">
+      <?php echo anchor('auth/logout','Logout') ?></li>
+  <?php } else { ?>
+    <li style="list-style-type:none;"><?php echo anchor('auth/login','Login') ?></li>
+  <?php } ?>
       </div>
    
   </nav>

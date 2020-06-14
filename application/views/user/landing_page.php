@@ -165,7 +165,7 @@
       <div class="container" style=" text-align: center;margin-top:80px;margin-bottom:50px;">
         <h5 style="align-text:middle;">Find freelance services for your business today</h5>
         <p>We've got you covered for all your needs</p>
-       <a class="btn btn-lg btn-secondary" style="width:150px;text-align:center;" href="#">Try it now</a>
+       <a class="btn btn-lg btn-secondary" style="width:150px;text-align:center;" href="<?php echo base_url('Hal_jasa') ?>">Try it now</a>
        </div>
     
 
