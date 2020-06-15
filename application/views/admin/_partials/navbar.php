@@ -11,8 +11,7 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                         
                         
-                        <a class="dropdown-item" href="login.html">Logout</a>
-                    </div>
+                      <?php echo anchor('auth/logout','Logout') ?>
                 </li>
             </ul>
 </nav>

@@ -26,7 +26,7 @@
             <td><?php echo $inv->alamat ?></td>
               <td><?php echo $inv->tgl_pesan ?></td>
                 <td><?php echo $inv->batas_pembayaran ?></td>
-                <td><?php echo anchor('admin/detail/'.$inv->id, '<div class="btn btn-sm btn-primary">Details</div>') ?></td>
+                <td><?php echo anchor('admin/Overview/detail/'.$inv->id, '<div class="btn btn-sm btn-primary">Details</div>') ?></td>
       </tr>
     <?php endforeach; ?>
   </table>

@@ -21,7 +21,7 @@ class model_kategori extends CI_Model{
   {
     return $this->db->get_where("products",array('kategori' => 'mobile'));
   }
-  public function desktop()
+  public function data_desktop()
   {
     return $this->db->get_where("products",array('kategori' => 'desktop'));
   }

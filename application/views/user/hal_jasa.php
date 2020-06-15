@@ -1,6 +1,6 @@
 
 
-<body>
+<body >
 
 
 <!-- Navigation -->
@@ -10,18 +10,18 @@
 
 <div class="container">
 
-    <div class="row">
+    <div class="row" >
 
       <div class="col-lg-3">
 
-        <h2 class="my-4">Programming & Tech</h2>
-        <div class="list-group">
-          <a href="#" class="list-group-item">WordPress</a>
-          <a href="#" class="list-group-item">Website Builders & CMS</a>
-          <a href="#" class="list-group-item">Game Development</a>
-          <a href="#" class="list-group-item">Web Programming</a>
-          <a href="#" class="list-group-item">Mobile Games</a>
-          <a href="#" class="list-group-item">Desktop Application</a>
+        <h2 class="my-4" >Programming & Tech</h2>
+        <div class="list-group"  >
+          <a href="kategori/wordpress" class="list-group-item" style="color:black;text-decoration:none;" >WordPress</a>
+          <a href="kategori/website" class="list-group-item" style="color:black;text-decoration:none;">Website Builders & CMS</a>
+          <a href="kategori/game" class="list-group-item" style="color:black;text-decoration:none;">Game Development</a>
+          <a href="kategori/web" class="list-group-item" style="color:black;text-decoration:none;">Web Programming</a>
+          <a href="kategori/mobile" class="list-group-item"  style="color:black;text-decoration:none;">Mobile Games</a>
+          <a href="kategori/desktop" class="list-group-item" style="color:black;text-decoration:none;">Desktop Application</a>
         </div>
 
       </div>
@@ -35,10 +35,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="<?php echo base_url('kategori/wordpress') ?>"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="<?php echo base_url('kategori/wordpress') ?>"><img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/wordpress.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="<?php echo base_url('kategori/wordpress') ?>">WordPress</a>
+                  <a  style="color:black;text-decoration:none;" href="<?php echo base_url('kategori/wordpress') ?>">WordPress</a>
                 </h4>
                 
               </div>
@@ -48,10 +48,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="kategori/website"><img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/website.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Website Builders & CMS</a>
+                  <a style="color:black;text-decoration:none;" href="kategori/website">Website Builders & CMS</a>
                 </h4>
                 
               </div>
@@ -61,10 +61,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="kategori/game"><img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/game.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Game Development</a>
+                  <a style="color:black;text-decoration:none;" href="kategori/game">Game Development</a>
                 </h4>
                
               </div>
@@ -74,10 +74,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="kategori/web"><img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/web.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Web Programming</a>
+                  <a style="color:black;text-decoration:none;" href="kategori/web">Web Programming</a>
                 </h4>
                 
               </div>
@@ -87,10 +87,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="kategori/mobile"><img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/mobile.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Mobile Games</a>
+                  <a style="color:black;text-decoration:none;" href="kategori/mobile">Mobile Games</a>
                 </h4>
                
               </div>
@@ -100,10 +100,10 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="kategori/desktop"><img class="card-img-top" src="<?php echo base_url();?>assets1/vendor/desktop.jpg" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Desktop Application</a>
+                  <a style="color:black;text-decoration:none;" href="kategori/desktop">Desktop Application</a>
                 </h4>
                 
               </div>

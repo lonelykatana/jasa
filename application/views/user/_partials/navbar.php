@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success fixed-top">
     
-      <a class="navbar-brand" href="Landing_page">
+      <a class="navbar-brand" href="/jasa/">
       <img src="<?php echo base_url();?>assets1/vendor/logo2.svg" width="30" height="30" alt="Hired.">
       Hired.
       </a>
@@ -14,7 +14,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <a class="nav-link" style="margin-top:-8px;" href="<?php $pesanan = 'Daftar Pesanan : '.$this->cart->total_items(). 'items' ?>"></a>
+        <a class="nav-link" style="margin-top:-8px;color:black;" href="<?php $pesanan = 'Daftar Pesanan : '.$this->cart->total_items(). 'items' ?>"></a>
                     <?php $pesanan = 'Daftar Pesanan : '.$this->cart->total_items(). 'items' ?>
                     <?php echo anchor('Landing_page/detail_pesanan',$pesanan) ?>
                   </li>

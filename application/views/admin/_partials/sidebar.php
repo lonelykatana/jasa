@@ -13,7 +13,7 @@
                            
                             <a class="nav-link" href="/jasa/admin/Products/"
                                 ><div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Charts</a
+                                Products</a
                             >
                         </div>
                     </div>

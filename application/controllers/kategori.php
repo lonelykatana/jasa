@@ -39,7 +39,7 @@ class kategori extends CI_Controller {
   }
   public function desktop()
   {
-      $data['desktop'] = $this->model_kategori->data_dekstop()->result();
+      $data['desktop'] = $this->model_kategori->data_desktop()->result();
       $this->load->view('user/_partials/header');
       $this->load->view('user/desktop', $data);
       $this->load->view('user/_partials/footer');

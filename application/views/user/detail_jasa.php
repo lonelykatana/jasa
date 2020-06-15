@@ -25,7 +25,9 @@
             <td><strong><div class="btn btn-sm btn-info">Rp. <?php echo number_format($js->price,0,',','.') ?></div></strong></td>
           </tr>
         </table>
-            <?php echo anchor('kategori/wordpress/','<div class="btn btn-sm btn-dark mt-1">Back</div>') ?>
+        <?php echo anchor('kategori/wordpress/','<div class="btn btn-sm btn-dark mt-1">Back</div>') ?>
+        <?php echo anchor('Landing_page/tambah_ke_pesanan/'.$js->product_id,'<div class="btn btn-sm btn-success mt-1">Tambah Ke Pesanan</div>') ?>
+            
       </div>
 </div>
 <?php endforeach; ?>
