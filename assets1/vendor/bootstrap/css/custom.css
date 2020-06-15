@@ -109,13 +109,13 @@
     border-color: #007bff;
   }
   a {
-    color: black;
+    color: white;
     text-decoration: none;
     background-color: transparent;
   }
   
   a:hover {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   .nav-pills .nav-link.active,
@@ -135,5 +135,4 @@
     transform: translate(-50%, -50%);
     background-color: #1dbf73;
   }
-  
 
