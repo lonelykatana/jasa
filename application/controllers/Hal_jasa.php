@@ -13,5 +13,12 @@ class Hal_jasa extends CI_Controller
         $this->load->view("user/_partials/footer");
 
     }
+    public function about()
+    {
+        $this->load->view("user/_partials/header");
+        $this->load->view("user/about");
+        $this->load->view("user/_partials/footer");
+
+    }
     
 }

@@ -18,6 +18,9 @@
                     <?php $pesanan = 'Daftar Pesanan : '.$this->cart->total_items(). 'items' ?>
                     <?php echo anchor('Landing_page/detail_pesanan',$pesanan) ?>
                   </li>
+                  <li class="nav-item">
+            <a class="nav-link" href="<?php echo base_url('Hal_jasa/about') ?>">About</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('Hal_jasa') ?>">Jasa</a>
           </li>
