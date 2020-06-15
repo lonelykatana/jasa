@@ -4,6 +4,7 @@
   <!-- Navigation -->
   <?php $this->load->view("user/_partials/navbar.php") ?>
 <div class="container-fluid"  style="margin-top:80px;">
+
   <h3>Daftar Pesanan</h3>
   <table class="table table-bordered table-stripped table-hover">
     <tr>

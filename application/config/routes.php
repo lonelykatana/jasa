@@ -54,5 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['admin']='admin/overview';
+$route['admin']='admin/Overview';
 $route['hal_jasa']='user/hal_jasa';
