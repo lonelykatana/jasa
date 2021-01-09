@@ -33,7 +33,7 @@
                 </form>
 <br>
                 <div class="text-center">
-                  <a class="small" href="<?php echo base_url('registrasi/index'); ?>">Belum ada Akun? Daftar Yuk!</a>
+                  <a class="small" href="<?php echo base_url('registrasi/index'); ?>">Belum   a Akun? Daftar Yuk!</a>
                 </div>
               </div>
             </div>
